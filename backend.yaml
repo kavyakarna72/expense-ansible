@@ -37,7 +37,7 @@
      remote_src: yes
 
   - name: install dependencies
-    coummunity.general.npm:
+    community.general.npm:
       path: /app
 
   - name: copy backend service
